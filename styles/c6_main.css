@@ -14,9 +14,7 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-a:focus, a:hover {
-	font-style: italic;
-}
+
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
@@ -42,9 +40,7 @@ header img {
 	float: left;
 	padding: 0 30px;
 }
-.shadow {
-	text-shadow: 2px 2px 2px #800000;
-}
+
 /* the styles for the main content */
 
 main h2 {
@@ -56,9 +52,7 @@ main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-main img {
-	padding-bottom: 1em;
-}
+
 main p {
 	padding-bottom: .5em;
 }
@@ -87,12 +81,26 @@ article h3 {
 	padding-bottom: .25em;
 }
 
+article img {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 1px solid black;
+}
+
 /* the styles for the aside */
 aside{
 	width: 215px;
 	float: right;
 	padding-left: 20px;
 	padding-bottom: 20px;
+}
+
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
 }
 
 aside h3 {
@@ -113,7 +121,7 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
+/* Styles for Section*/
 section{
 	width: 525px;
 	float: right;
@@ -121,3 +129,24 @@ section{
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
+
+section h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+a:focus, a:hover {
+	font-style: italic;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+
+h1{ 
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0 0 0 0;
+}
+
